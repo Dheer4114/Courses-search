@@ -1,0 +1,320 @@
+2025-06-09 11:03:24,727 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:03:24,727 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:03:33,093 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:05:58,013 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:05:58,013 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:06:03,546 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:06:03,578 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:06:05,081 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:06:05,385 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:06:06,143 - INFO - HTTP Request: GET https://cdn-media.huggingface.co/frpc-gradio-0.3/frpc_windows_amd64.exe "HTTP/1.1 200 OK"
+2025-06-09 11:06:25,978 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:06:25,978 - INFO - ====== WebDriver manager ======
+2025-06-09 11:06:26,892 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:06:27,367 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:06:27,777 - INFO - There is no [win64] chromedriver "137.0.7151.68" for browser google-chrome "137.0.7151" in cache
+2025-06-09 11:06:27,777 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:06:28,755 - INFO - WebDriver version 137.0.7151.68 selected
+2025-06-09 11:06:28,761 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-09 11:06:28,761 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-09 11:06:29,179 - INFO - Driver downloading response is 200
+2025-06-09 11:06:30,892 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:06:31,414 - INFO - Driver has been saved in cache [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-09 11:06:51,028 - INFO - Successfully scraped 0 courses from Coursera
+2025-06-09 11:06:53,324 - INFO - ====== WebDriver manager ======
+2025-06-09 11:06:54,107 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:06:54,523 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:06:54,952 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:07:10,006 - INFO - Successfully scraped 0 courses from Udemy
+2025-06-09 11:07:12,141 - INFO - ====== WebDriver manager ======
+2025-06-09 11:07:12,906 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:07:13,345 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:07:13,808 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:07:37,471 - INFO - Successfully scraped 4 courses from Analytics Vidhya
+2025-06-09 11:07:39,637 - INFO - Total unique courses scraped: 4
+2025-06-09 11:07:40,004 - ERROR - Error in search_courses: selected index k out of range
+2025-06-09 11:07:40,004 - ERROR - Traceback (most recent call last):
+  File "c:\Users\veer singh\Desktop\project\update.py", line 254, in search_courses
+    top_results = similarities.topk(k=15)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selected index k out of range
+
+2025-06-09 11:07:59,873 - INFO - Returning cached courses
+2025-06-09 11:07:59,924 - ERROR - Error in search_courses: selected index k out of range
+2025-06-09 11:07:59,924 - ERROR - Traceback (most recent call last):
+  File "c:\Users\veer singh\Desktop\project\update.py", line 254, in search_courses
+    top_results = similarities.topk(k=15)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selected index k out of range
+
+2025-06-09 11:08:02,256 - INFO - Returning cached courses
+2025-06-09 11:08:02,288 - ERROR - Error in search_courses: selected index k out of range
+2025-06-09 11:08:02,288 - ERROR - Traceback (most recent call last):
+  File "c:\Users\veer singh\Desktop\project\update.py", line 254, in search_courses
+    top_results = similarities.topk(k=15)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selected index k out of range
+
+2025-06-09 11:08:03,586 - INFO - Returning cached courses
+2025-06-09 11:08:03,621 - ERROR - Error in search_courses: selected index k out of range
+2025-06-09 11:08:03,621 - ERROR - Traceback (most recent call last):
+  File "c:\Users\veer singh\Desktop\project\update.py", line 254, in search_courses
+    top_results = similarities.topk(k=15)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selected index k out of range
+
+2025-06-09 11:08:09,838 - INFO - Returning cached courses
+2025-06-09 11:08:09,887 - ERROR - Error in search_courses: selected index k out of range
+2025-06-09 11:08:09,887 - ERROR - Traceback (most recent call last):
+  File "c:\Users\veer singh\Desktop\project\update.py", line 254, in search_courses
+    top_results = similarities.topk(k=15)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selected index k out of range
+
+2025-06-09 11:08:16,037 - INFO - Returning cached courses
+2025-06-09 11:08:16,089 - ERROR - Error in search_courses: selected index k out of range
+2025-06-09 11:08:16,089 - ERROR - Traceback (most recent call last):
+  File "c:\Users\veer singh\Desktop\project\update.py", line 254, in search_courses
+    top_results = similarities.topk(k=15)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selected index k out of range
+
+2025-06-09 11:09:33,459 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:09:33,459 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:09:39,451 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:09:39,480 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:09:41,016 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:09:42,254 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:10:00,861 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:10:00,861 - INFO - ====== WebDriver manager ======
+2025-06-09 11:10:01,627 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:10:02,086 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:10:02,528 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:10:21,339 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 11:10:23,600 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 11:10:23,600 - INFO - ====== WebDriver manager ======
+2025-06-09 11:10:24,313 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:10:24,848 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:10:25,254 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:10:40,380 - INFO - Successfully scraped 12 courses from Udemy
+2025-06-09 11:10:42,481 - INFO - Added 12 courses from scrape_udemy
+2025-06-09 11:10:42,481 - INFO - ====== WebDriver manager ======
+2025-06-09 11:10:43,276 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:10:43,720 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:10:44,151 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:11:06,551 - INFO - Successfully scraped 26 courses from Analytics Vidhya
+2025-06-09 11:11:08,685 - INFO - Added 26 courses from scrape_analyticsvidhya
+2025-06-09 11:11:08,753 - INFO - Total unique courses scraped: 76
+2025-06-09 11:14:56,234 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:14:56,235 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:15:02,656 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:15:02,690 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:15:04,274 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:15:04,491 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:15:49,966 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:15:49,966 - INFO - ====== WebDriver manager ======
+2025-06-09 11:15:50,874 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:15:51,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:15:51,797 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:16:12,087 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 11:16:14,377 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 11:16:14,377 - INFO - ====== WebDriver manager ======
+2025-06-09 11:16:15,213 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:16:15,684 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:16:16,170 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:16:31,181 - INFO - Successfully scraped 12 courses from Udemy
+2025-06-09 11:16:33,359 - INFO - Added 12 courses from scrape_udemy
+2025-06-09 11:16:33,359 - INFO - ====== WebDriver manager ======
+2025-06-09 11:16:34,115 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:16:34,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:16:35,002 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:16:56,887 - INFO - Successfully scraped 26 courses from Analytics Vidhya
+2025-06-09 11:16:59,032 - INFO - Added 26 courses from scrape_analyticsvidhya
+2025-06-09 11:16:59,046 - INFO - Total unique courses scraped: 76
+2025-06-09 11:17:54,725 - INFO - Returning cached courses
+2025-06-09 11:20:18,691 - INFO - Returning cached courses
+2025-06-09 11:20:30,394 - INFO - Returning cached courses
+2025-06-09 11:20:52,593 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:20:52,593 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:21:00,734 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:21:00,759 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:21:02,323 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:21:02,755 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:21:42,701 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:21:42,704 - INFO - ====== WebDriver manager ======
+2025-06-09 11:21:44,551 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:21:44,997 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:21:45,435 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:22:33,837 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 11:22:36,147 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 11:22:36,147 - INFO - ====== WebDriver manager ======
+2025-06-09 11:22:37,247 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:22:37,898 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:22:38,407 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:23:22,402 - INFO - Successfully scraped 12 courses from Udemy
+2025-06-09 11:23:24,684 - INFO - Added 12 courses from scrape_udemy
+2025-06-09 11:23:24,684 - INFO - ====== WebDriver manager ======
+2025-06-09 11:23:26,159 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:23:26,742 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:23:27,264 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:24:19,649 - INFO - Successfully scraped 26 courses from Analytics Vidhya
+2025-06-09 11:24:21,962 - INFO - Added 26 courses from scrape_analyticsvidhya
+2025-06-09 11:24:21,978 - INFO - Total unique courses scraped: 76
+2025-06-09 11:25:37,646 - INFO - Returning cached courses
+2025-06-09 11:25:58,921 - INFO - Returning cached courses
+2025-06-09 11:28:45,786 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:28:45,786 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:28:52,553 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:28:52,586 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:28:54,942 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:28:54,942 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:29:19,912 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:29:19,912 - INFO - ====== WebDriver manager ======
+2025-06-09 11:29:21,846 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:29:22,497 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:29:23,018 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:30:12,272 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 11:30:14,550 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 11:30:14,550 - INFO - ====== WebDriver manager ======
+2025-06-09 11:30:16,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:30:16,806 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:30:17,489 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:31:01,371 - INFO - Successfully scraped 12 courses from Udemy
+2025-06-09 11:31:03,634 - INFO - Added 12 courses from scrape_udemy
+2025-06-09 11:31:03,635 - INFO - ====== WebDriver manager ======
+2025-06-09 11:31:05,482 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:31:06,134 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:31:06,651 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:32:01,528 - INFO - Successfully scraped 26 courses from Analytics Vidhya
+2025-06-09 11:32:03,758 - INFO - Added 26 courses from scrape_analyticsvidhya
+2025-06-09 11:32:03,774 - INFO - Total unique courses scraped: 76
+2025-06-09 11:32:24,501 - INFO - Returning cached courses
+2025-06-09 11:32:54,564 - INFO - Returning cached courses
+2025-06-09 11:33:02,693 - INFO - Returning cached courses
+2025-06-09 11:35:06,420 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:35:06,420 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:35:14,107 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:35:14,136 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:35:15,692 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:35:16,086 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:35:55,591 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:35:55,591 - INFO - ====== WebDriver manager ======
+2025-06-09 11:35:57,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:35:57,990 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:35:58,446 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:36:47,068 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 11:36:49,319 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 11:36:49,319 - INFO - ====== WebDriver manager ======
+2025-06-09 11:36:50,665 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:36:51,188 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:36:51,755 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:37:35,799 - INFO - Successfully scraped 12 courses from Udemy
+2025-06-09 11:37:37,967 - INFO - Added 12 courses from scrape_udemy
+2025-06-09 11:37:37,967 - INFO - ====== WebDriver manager ======
+2025-06-09 11:37:39,351 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:37:39,974 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:37:41,110 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:38:33,998 - INFO - Successfully scraped 26 courses from Analytics Vidhya
+2025-06-09 11:38:36,281 - INFO - Added 26 courses from scrape_analyticsvidhya
+2025-06-09 11:38:36,281 - INFO - ====== WebDriver manager ======
+2025-06-09 11:38:37,641 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:38:38,074 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:38:38,566 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:39:27,235 - INFO - Successfully scraped 274 courses from edX
+2025-06-09 11:39:29,395 - INFO - Added 274 courses from scrape_edx
+2025-06-09 11:39:29,395 - INFO - ====== WebDriver manager ======
+2025-06-09 11:39:30,985 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:39:31,459 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:39:31,907 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:40:22,219 - INFO - Successfully scraped 183 courses from Khan Academy
+2025-06-09 11:40:24,395 - INFO - Added 183 courses from scrape_khanacademy
+2025-06-09 11:40:24,395 - INFO - ====== WebDriver manager ======
+2025-06-09 11:40:25,740 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:40:26,389 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:40:26,942 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:42:13,620 - INFO - Successfully scraped 280 courses from MIT OpenCourseWare
+2025-06-09 11:42:15,889 - INFO - Added 280 courses from scrape_mitocw
+2025-06-09 11:42:15,889 - INFO - ====== WebDriver manager ======
+2025-06-09 11:42:17,274 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:42:17,789 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:42:18,418 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:43:10,245 - INFO - Successfully scraped 38 courses from freeCodeCamp
+2025-06-09 11:43:12,451 - INFO - Added 38 courses from scrape_freecodecamp
+2025-06-09 11:43:12,451 - INFO - ====== WebDriver manager ======
+2025-06-09 11:43:14,090 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:43:14,733 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:43:15,346 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:44:04,906 - INFO - Successfully scraped 2 courses from Harvard Online Learning
+2025-06-09 11:44:07,085 - INFO - Added 2 courses from scrape_harvard
+2025-06-09 11:44:07,085 - INFO - Total unique courses scraped: 496
+2025-06-09 11:45:05,326 - INFO - Returning cached courses
+2025-06-09 11:45:26,903 - INFO - Returning cached courses
+2025-06-09 11:45:48,170 - INFO - Returning cached courses
+2025-06-09 11:46:10,568 - INFO - Returning cached courses
+2025-06-09 11:46:25,726 - INFO - Returning cached courses
+2025-06-09 11:46:39,732 - INFO - Returning cached courses
+2025-06-09 11:47:42,346 - INFO - Returning cached courses
+2025-06-09 11:47:53,490 - INFO - Returning cached courses
+2025-06-09 11:48:14,133 - INFO - Returning cached courses
+2025-06-09 11:51:47,955 - INFO - Use pytorch device_name: cpu
+2025-06-09 11:51:47,955 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:51:55,600 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 11:51:55,617 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 11:51:57,097 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 11:51:57,581 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 11:52:16,709 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 11:52:16,709 - INFO - ====== WebDriver manager ======
+2025-06-09 11:52:18,274 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:52:18,742 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:52:19,276 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:53:07,775 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 11:53:10,046 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 11:53:10,046 - INFO - ====== WebDriver manager ======
+2025-06-09 11:53:11,431 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:53:11,893 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:53:12,391 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 11:53:56,368 - INFO - Successfully scraped 12 courses from Udemy
+2025-06-09 11:53:58,668 - INFO - Added 12 courses from scrape_udemy
+2025-06-09 11:53:58,668 - INFO - ====== WebDriver manager ======
+2025-06-09 11:54:00,641 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:54:01,118 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 11:54:01,566 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 12:00:45,962 - INFO - Use pytorch device_name: cpu
+2025-06-09 12:00:45,962 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:00:54,203 - INFO - Successfully initialized the sentence transformer model
+2025-06-09 12:00:54,890 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-06-09 12:00:54,908 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-06-09 12:00:56,453 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-06-09 12:00:56,861 - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-06-09 12:02:01,196 - INFO - Starting to scrape courses from all platforms...
+2025-06-09 12:02:01,196 - INFO - ====== WebDriver manager ======
+2025-06-09 12:02:02,879 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:02:03,546 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:02:03,987 - INFO - Driver [C:\Users\veer singh\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 12:02:52,494 - INFO - Successfully scraped 71 courses from Coursera
+2025-06-09 12:02:54,765 - INFO - Added 71 courses from scrape_coursera
+2025-06-09 12:02:54,765 - INFO - ====== WebDriver manager ======
+2025-06-09 12:02:56,523 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:02:56,539 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:02:56,539 - INFO - ====== WebDriver manager ======
+2025-06-09 12:02:57,855 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:02:57,863 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:02:57,863 - INFO - ====== WebDriver manager ======
+2025-06-09 12:02:59,050 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:02:59,054 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:02:59,054 - INFO - ====== WebDriver manager ======
+2025-06-09 12:03:00,665 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:03:00,672 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:03:00,673 - INFO - ====== WebDriver manager ======
+2025-06-09 12:03:02,013 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:03:02,017 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:03:02,017 - INFO - ====== WebDriver manager ======
+2025-06-09 12:03:03,573 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:03:03,587 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:03:03,587 - INFO - ====== WebDriver manager ======
+2025-06-09 12:03:05,191 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 12:03:05,191 - ERROR - Error setting up WebDriver: Could not reach host. Are you offline?
+2025-06-09 12:03:05,191 - INFO - Total unique courses scraped: 61
+2025-06-09 12:14:30,447 - INFO - Returning cached courses
+2025-06-09 12:16:53,204 - INFO - Returning cached courses
+2025-06-09 12:16:54,518 - INFO - Returning cached courses
